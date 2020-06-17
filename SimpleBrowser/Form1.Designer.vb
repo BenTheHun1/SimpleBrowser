@@ -42,7 +42,7 @@ Partial Class frmWeb
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(800, 44)
+        Me.GroupBox1.Size = New System.Drawing.Size(1264, 44)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
@@ -52,13 +52,13 @@ Partial Class frmWeb
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtURL.Location = New System.Drawing.Point(114, 14)
         Me.txtURL.Name = "txtURL"
-        Me.txtURL.Size = New System.Drawing.Size(617, 20)
+        Me.txtURL.Size = New System.Drawing.Size(1081, 20)
         Me.txtURL.TabIndex = 1
         '
         'btnEnter
         '
         Me.btnEnter.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btnEnter.Location = New System.Drawing.Point(737, 12)
+        Me.btnEnter.Location = New System.Drawing.Point(1201, 12)
         Me.btnEnter.Name = "btnEnter"
         Me.btnEnter.Size = New System.Drawing.Size(57, 22)
         Me.btnEnter.TabIndex = 2
@@ -100,7 +100,7 @@ Partial Class frmWeb
         Me.webBrowser.Location = New System.Drawing.Point(0, 44)
         Me.webBrowser.MinimumSize = New System.Drawing.Size(20, 20)
         Me.webBrowser.Name = "webBrowser"
-        Me.webBrowser.Size = New System.Drawing.Size(800, 406)
+        Me.webBrowser.Size = New System.Drawing.Size(1264, 637)
         Me.webBrowser.TabIndex = 6
         Me.webBrowser.Url = New System.Uri("http://google.com", System.UriKind.Absolute)
         '
@@ -109,7 +109,7 @@ Partial Class frmWeb
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.webBrowser)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frmWeb"
